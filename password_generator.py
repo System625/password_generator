@@ -3,7 +3,9 @@ from random import randint
 
 root = Tk()
 root.title("My Personal Password Generator")
-root.iconbitmap("C:/Users/Olamiposi/OneDrive/Documents/posi/python/beginnerCourse/avatar.ico")
+
+# Use your own directory if you want to include the avatar icon
+# root.iconbitmap("C:/Users/Olamiposi/OneDrive/Documents/posi/python/beginnerCourse/avatar.ico")
 root.geometry("500x300")
 
 my_password = chr(randint(33, 126))
